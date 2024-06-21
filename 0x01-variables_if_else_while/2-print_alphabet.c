@@ -14,14 +14,14 @@ int main(void)
         putchar(letter);
     }
 
-    putchar('\n'); // This is the first putchar
+    putchar('\n'); 
 
     for (letter = 'A'; letter <= 'Z'; letter++)
     {
         putchar(letter);
     }
 
-    putchar('\n'); // This is the second putchar
+    putchar('\n'); 
 
     return (0);
 }
