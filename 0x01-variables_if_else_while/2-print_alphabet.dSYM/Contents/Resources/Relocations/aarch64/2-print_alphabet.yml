@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/madute/Library/CloudStorage/GoogleDrive-info@pandacstudios.com/Other computers/My laptop/Pandac repos/alx-low_level_programming/0x01-variables_if_else_while/2-print_alphabet'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F38, symSize: 0x64 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F38, symSize: 0x64 }
+...
