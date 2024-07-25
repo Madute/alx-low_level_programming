@@ -1,17 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * print_line - this function lines
- * @n: larger of the line.
-(* a blank line
-* Description: this function prints lines?
-(* section header: the header of this function is holberton.h)*
-* Return: a void function, no return
+*print_line - prints a straight line
+*@n:parameter
+*Return:returns nothing
 */
 void print_line(int n)
 {
-int i;
-
-for (i = 0; i < n; i++)
+while (n-- > 0)
 {
 _putchar('_');
 }

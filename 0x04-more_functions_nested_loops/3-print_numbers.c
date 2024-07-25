@@ -1,18 +1,19 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * print_numbers - this function prints the digit from 0 to 9
-(* a blank line
-* Description: this function prints the numbers from 0 to 9)?
-(* section header: the header of this function is holberton.h)*
-* Return: a void function, no return
+*print_most_numbers - prints numbers except 2 and 4
+*
+*Return: returns nothing
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
-int i;
-
-for (i = 0; i < 10; i++)
+int number;
+for (number = 48; number < 58; number++)
 {
-_putchar(i + '0');
+if ((number == 50) || (number == 52))
+{
+continue;
 }
-_putchar('\n');
+_putchar(number);
+}
+_putchar(10);
 }
