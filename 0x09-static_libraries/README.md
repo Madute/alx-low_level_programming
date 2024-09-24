@@ -35,3 +35,4 @@ using them with `ar`, `ranlib`, and `nm`.
 * **1. Without libraries what have we? We have no past and no future**
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
   library called `liball.a` from all the `.c` files in the current directory.
+  
